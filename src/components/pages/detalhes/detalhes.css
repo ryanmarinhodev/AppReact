@@ -1,0 +1,144 @@
+#banner {
+    background-image: url('https://coolwallpapers.me/picsup/5075778-arthur-morgan-red-dead-redemption-red-dead-redemption-2-video-game.png');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 60vh; /* Reduzi a altura para uma visualização melhor */
+  }
+  
+  #trailer-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    background-color: #000;
+  }
+  
+  .content {
+    width: 80%;
+    display: flex;
+    align-items: flex-start; /* Alinha no topo */
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .trailer {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
+  }
+  
+  #sinopse {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30px;
+  }
+  
+  .description {
+    color: #fff;
+    font-size: 19px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    width: 200px;
+    height: 60px;
+    background-color: #d21617;
+    color: #fff;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .8s;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+  }
+  
+  .button:hover {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  /* Media Queries */
+  
+  @media (max-width: 1200px) {
+    .content {
+      width: 90%;
+    }
+  
+    .trailer, #sinopse {
+      width: 100%;
+      margin-left: 0;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    #banner {
+      height: 40vh;
+    }
+  
+    .description {
+      font-size: 16px;
+    }
+  
+    .button {
+      width: 150px;
+      height: 50px;
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    #banner {
+      height: 30vh;
+    }
+  
+    .description {
+      font-size: 14px;
+    }
+  
+    .button {
+      width: 120px;
+      height: 40px;
+      font-size: 14px;
+    }
+  }
+
+
+
+  footer {
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+} 
+
+span {
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+}
+
+span {
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.footer-navigation {
+    display: none;
+}
+
+.footer-lis {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

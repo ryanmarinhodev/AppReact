@@ -1,0 +1,44 @@
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    background-color: black;
+  }
+  
+  nav {
+    width: 60%;
+  }
+  
+  ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+  li {
+    list-style: none;
+    color: red;
+    cursor: pointer;
+    font-size: 21px;
+    transition: .5s;
+    font-family: 'Bebas Neue', cursive;
+  }
+  
+  li:hover {
+    color: RGB(255, 140, 26);
+  }
+  
+  #logo {
+    width: 150px;
+    height: auto;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit; /* Inherits the color from the parent li */
+  }
+  
