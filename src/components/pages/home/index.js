@@ -14,7 +14,7 @@ function Home() {
      <Detalhes />
      <Footer />
      <h1>Teste de Versionamento</h1>
-        
+        <h2>Retorno do versionamento</h2>
 
     </>
   );
