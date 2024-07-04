@@ -13,6 +13,7 @@ function Home() {
      <Header />
      <Detalhes />
      <Footer />
+     <h1>Teste de Versionamento</h1>
         
 
     </>
